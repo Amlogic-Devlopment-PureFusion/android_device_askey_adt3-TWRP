@@ -25,12 +25,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/askey/adt3/device.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/cm/config/common.mk)
+$(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := adt3
-PRODUCT_NAME := omni_adt3
+PRODUCT_NAME := cm_adt3
 PRODUCT_BRAND := ADT-3
 PRODUCT_MODEL := ADT-3
 PRODUCT_MANUFACTURER := askey

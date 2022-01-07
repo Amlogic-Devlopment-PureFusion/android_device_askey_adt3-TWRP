@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_adt3.mk
+     $(LOCAL_DIR)/cm_adt3.mk
